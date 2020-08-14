@@ -15,6 +15,12 @@ function dateNew(){
     return n = 'Wednesday'
   } else if (n === 4){
     return n = 'Thursday'
+  } else if (n === 5){
+    return n = 'Friday'
+  } else if (n === 6){
+    return n = 'Saturday'
+  } else {
+    return n = 'Sunday'
   };
  let result = 'Today is: ' + n ;
 }
